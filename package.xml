@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>sts_core_utils</name>
+  <version>1.0.0</version>
+  <description>Consists of sts_core_node and sts_io.</description>
+  <author>Nick Fiege, Robert Rudolph</author>
+  <maintainer email="nick.fiege@streetscooter.com">Nick Fiege</maintainer>
+  <maintainer email="robert.rudolph@streetscooter.com">Robert Rudolph</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>cmake_modules</depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>genmsg</build_depend>
+  <build_export_depend>message_generation</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+
+  <!--<depend>actionlib_msgs</depend>-->
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+    <!--<cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -lsts_code_utils"/>-->
+
+  </export>
+</package>
